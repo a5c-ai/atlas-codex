@@ -1,0 +1,39 @@
+{
+  "name": "atlas",
+  "version": "5.0.1-staging.28347f861706",
+  "description": "Turn a stated need into a full system design by mining the Atlas knowledge graph.",
+  "author": {
+    "name": "a5c.ai",
+    "email": "support@a5c.ai"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/a5c-ai/babysitter",
+  "keywords": [
+    "atlas",
+    "knowledge-graph",
+    "system-design",
+    "discovery",
+    "process-mining",
+    "data-mining",
+    "mcp",
+    "agent",
+    "LLM"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Atlas",
+    "shortDescription": "Mine the Atlas knowledge graph to design systems from Codex",
+    "longDescription": "Atlas adds graph-driven discovery entrypoints such as $discover, $mine-processes, $mine-data, and $collect-nuances that turn a stated need into a full system design by querying the Atlas knowledge graph.",
+    "developerName": "a5c.ai",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/a5c-ai/babysitter",
+    "privacyPolicyURL": "https://github.com/a5c-ai/babysitter",
+    "termsOfServiceURL": "https://github.com/a5c-ai/babysitter"
+  },
+  "homepage": "https://github.com/a5c-ai/babysitter/tree/main/plugins/atlas-unified/per-harness/codex#readme"
+}

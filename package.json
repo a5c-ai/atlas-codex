@@ -1,0 +1,43 @@
+{
+  "name": "@a5c-ai/atlas-codex",
+  "version": "5.0.1-staging.28347f861706",
+  "description": "Turn a stated need into a full system design by mining the Atlas knowledge graph.",
+  "scripts": {
+    "test": "npm run validate:ci",
+    "test:integration": "node test/integration.test.js",
+    "test:packaged-install": "node test/packaged-install.test.js",
+    "validate:ci": "npm run test:integration && npm run test:packaged-install",
+    "team:install": "node scripts/team-install.js",
+    "deploy": "npm publish --access public",
+    "deploy:staging": "npm publish --access public --tag staging"
+  },
+  "bin": {
+    "atlas-codex": "bin/cli.js"
+  },
+  "files": [
+    ".codex-plugin/",
+    "skills/",
+    ".app.json",
+    "bin/",
+    "scripts/",
+    "README.md"
+  ],
+  "keywords": [
+    "atlas",
+    "codex",
+    "orchestration"
+  ],
+  "author": "a5c.ai",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a5c-ai/atlas-codex.git"
+  },
+  "homepage": "https://github.com/a5c-ai/atlas-codex#readme",
+  "bugs": {
+    "url": "https://github.com/a5c-ai/atlas-codex/issues"
+  }
+}

@@ -1,0 +1,3 @@
+[mcp_servers.atlas]
+command = "npx"
+args = ["-y", "mcp-remote", "${ATLAS_MCP_URL:-https://atlas-staging.a5c.ai/api/mcp}"]
