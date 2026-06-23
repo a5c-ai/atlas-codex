@@ -1,6 +1,6 @@
 {
   "name": "@a5c-ai/atlas-codex",
-  "version": "5.1.1-staging.209a5d902758",
+  "version": "5.1.1-staging.9344efe94664",
   "description": "Turn a stated need into a full system design by mining the Atlas knowledge graph.",
   "scripts": {
     "test": "npm run validate:ci",
